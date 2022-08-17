@@ -1,0 +1,103 @@
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Corridos tumbados</title>
+
+    <link type="text/css" rel="stylesheet" href="linea.css" />
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+    <nav class="nav-extended black">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo"><img src="img/icono.png" alt="" width="60" height="auto"
+                    class="circle responsive-img" /></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li class="tab"><a href="index.html">Pagina 1</a></li>
+                <li class="tab"><a href="segunda.html">Pagina 2</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="header">
+            <center>Corridos Tumbados</center>
+        </h1>
+
+        <div class="card horizontal">
+
+            <div class="container section">
+                <div class="row">
+                    <div class="col s8">
+                        <div class="carousel carousel-slider">
+
+                            <a class="carousel-item" href=""><img src="img/drip.jpg"></a>
+                            <a class="carousel-item" href=""><img src="img/natakong.png"></a>
+                            <a class="carousel-item" href=""><img src="img/nuevoyo.jpg"></a>
+                            <a class="carousel-item" href=""><img src="img/soyelnata.jpg"></a>
+                            <a class="carousel-item" href=""><img src="img/corazon.jpg"></a>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="container section">
+                <div class="">
+                    <h6><b>Hey pero si caben las morras allà atras o no???</b></h6>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Tópicos Slectos de Sistemas Computacionales</h5>
+                    <p class="grey-text text-lighten-4">
+                        Universidad Politécnica de Querétaro.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-copyright ">
+            <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems, {
+                duration: 200,
+                indicators: true,
+                fullWidth: true,
+                dist: -100
+            });
+
+        });
+
+
+    </script>
+</body>
+
+</html>
